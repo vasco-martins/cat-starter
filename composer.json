@@ -1,0 +1,22 @@
+{
+    "name": "vascomartins/cat-starter",
+    "description": "Cat framework starter project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vasco Martins",
+            "email": "vascomartins37@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=8.0",
+        "vascomartins/cat": "dev-main"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\" : "app/"
+        }
+    }
+}
