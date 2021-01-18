@@ -2,7 +2,7 @@
 $basePath = dirname(__DIR__);
 
 require_once '../vendor/autoload.php';
-require_once '../Framework/Helpers/helpers.php';
+require_once '../vendor/vascomartins/cat/src/Cat/Helpers/helpers.php';
 
 $router = new \Cat\Router\Router(strtok($_SERVER["REQUEST_URI"], '?'));
 
