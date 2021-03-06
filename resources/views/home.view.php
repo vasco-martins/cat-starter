@@ -20,6 +20,6 @@
     </style>
 </head>
 <body>
-<h1>Welcome to Cat</h1>
+<?php component('hello-message', [ 'message' => 'Welcome To Cat']); ?>
 </body>
 </html>
